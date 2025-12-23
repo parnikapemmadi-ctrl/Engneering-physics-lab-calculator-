@@ -1,0 +1,45 @@
+
+🔹 Algorithm.docx
+
+1 / 2
+🔹 Algorithm: Engineering Physics Lab Calculator
+Step 1
+Start the program.
+Step 2
+Declare required variables:
+· choice (integer)
+· num1, num2, num3, result (double)
+Step 3
+Display the menu with the following options:
+1. Calculate Velocity
+2. Calculate Acceleration
+3. Calculate Kinetic Energy
+4. Exit
+Step 4
+Read the user’s choice.
+Step 5
+Use a switch statement to perform the selected operation:
+Case 1: Velocity Calculation
+· Input distance and time
+· If time is zero, display an error message
+· Else calculate velocity = distance / time
+· Display the result
+Case 2: Acceleration Calculation
+· Input initial velocity, final velocity, and time
+· If time is zero, display an error message
+· Else calculate acceleration = (final velocity − initial velocity) / time
+· Display the result
+Case 3: Kinetic Energy Calculation
+2 / 2
+· Input mass and velocity
+· Calculate kinetic energy = ½ × mass × velocity²
+· Display the result
+Case 4: Exit
+· Display exit message
+· Terminate the program
+Default Case
+· Display “Invalid choice”
+Step 6
+Repeat Steps 3 to 5 until the user selects Exit (4).
+Step 7
+Stop the program.
